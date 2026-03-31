@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Bathroom Llama</title>
+    <link rel="stylesheet" href="https://llamabathroom.com/bathroom-assets/index.css" />
+    <link
+        rel="icon"
+        href="https://llamabathroom.com/bathroom-assets/assets/favicon/favicon-32x32.png"
+        sizes="32x32"
+    />
+    <link
+        rel="icon"
+        href="https://llamabathroom.com/bathroom-assets/assets/favicon/favicon-16x16.png"
+        sizes="16x16"
+    />
+    <link
+        rel="apple-touch-icon"
+        href="https://llamabathroom.com/bathroom-assets/assets/favicon/apple-touch-icon.png"
+    />
+</head>
+<body>
+<div class="">
+    <!-- NAVBAR START -->
+    <div class="relative top-0 left-0 w-full h-fit navbar ">
+        <nav
+            id="navbar"
+            class="bg-black transition-all duration-500 ease-in-out py-2"
+        >
+            <div class="flex justify-center items-center px-5">
+                <div class="flex items-center justify-center">
+                    <a href="/">
+                        <img
+                            src="https://llamabathroom.com/bathroom-assets/assets/bath-logo.svg"
+                            alt="logo"
+                            height="84"
+                            width="135"
+                            class="logo"
+                        />
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- NAVBAR END -->
+
+    <!-- CONTENT START -->
+    <div class="about-bg">
+        <div class="about-wrapper max-w-7xl mx-auto px-4 z-20">
+            <h1 id="header-text" class="font-head leading-second sm:leading-main lg:leading-main text-white">
+                About Us
+            </h1>
+        </div>
+        <div class="about-bg-overlay z-2"></div>
+    </div>
+    <div id="content-box" class="flex flex-col lg:flex-row justify-center items-start text-left lg:justify-between max-w-7xl w-full min-h- mx-auto bg-white">
+        <div id="about-content" class="flex flex-col justify-center items-center lg:items-start lg:justify-start text-left px-5 lg:px-0 py-10 w-full lg:py-0">
+            <p id="about-text" class="text-lg lg:text-2xl text-black text-center lg:text-left">
+                Welcome to <strong>Llama Bathroom!</strong> Your ultimate destination for hassle-free and cost-effective bathroom solutions.
+                At llamabathroom.com, our mission is to bring you the best deals on new bathrooms and bathroom remodels.
+                We have already negotiated with multiple service providers and specialists in your area, so you can skip
+                the haggling and let us find the perfect deal for you. Save the drama for the llama and leave all the heavy lifting to us!
+            </p>
+            <p id="about-text" class="text-lg lg:text-2xl text-black text-center lg:text-left">
+                We understand that your bathroom is not just a functional space but also a sanctuary where you can relax and rejuvenate.
+                That's why we are dedicated to providing you with exceptional value and outstanding service.
+                Our expert team has curated a network of reliable and skilled professionals who excel in all aspects of bathroom remodeling.
+                From luxurious upgrades to practical renovations, we have you covered.            
+            </p>
+            <p id="about-text" class="text-lg lg:text-2xl text-black text-center lg:text-left">
+                Why waste your precious time and energy searching for contractors, comparing prices, and negotiating deals when The Llama can handle it all for you?
+                We have already done the groundwork to ensure that you receive the most competitive prices and top-quality craftsmanship.             
+            </p>
+            <p id="about-text">
+                Ready to transform your bathroom?
+                <a href="/">Take the first step by filling out our simple form</a>
+                By providing us with a few details about your project, we can get started on finding the perfect solution tailored to your needs.
+                Our team of trusted service providers will review your information and reach out to you promptly to discuss your bathroom remodel.
+            </p>
+            <a
+                href="/"
+                id="get-started"
+                class="w-full bg-brand-green text-md uppercase lg:text-lg cursor-pointer text-white py-3 lg:py-4 px-6 mt-6 rounded-full border-2 border-transparent hover:border-brand-green hover:bg-white hover:shadow-md hover:text-brand-green text-center transition-all duration-300 ease-in-out"
+            >
+                Get Started Today!
+            </a>
+        </div>
+    </div>
+    <!-- CONTENT END -->
+</div>
+
+        <!-- FOOTER SECTION START  -->
+        <footer class="py-20 my-0 bottom-0 secondary-font bg-black w-full h-fit">
+    <div class="bg-black lg:py-4 py-20 h-full font-light">
+        <div
+            class="flex flex-col lg:flex-row justify-center items-center lg:justify-between h-16 px-5 max-w-7xl mx-auto lg:space-y-0 space-y-6"
+        >
+            <div class="text-white text-center text-sm order-3 lg:order-1">
+                © 2026 The Llama All rights reserved.
+            </div>
+            <div class="flex items-center justify-center order-1 lg:order-2">
+                <a href="/">
+                <img
+                    src="https://llamabathroom.com/bathroom-assets/assets/bath-logo.svg"
+                    alt="logo"
+                    height="84"
+                    width="135"
+                    class="logo"
+                    />
+                </a>
+            </div>
+            <div
+                class="flex flex-col lg:flex-row items-center justify-center space-y-2 lg:space-y-0 lg:pb-0 pb-10 text-white text-sm order-2 lg:order-3"
+            >
+                <a
+                    href="/about"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    About
+                </a>
+                <!--
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="https://thellama.com/blog"
+                    target="_blank"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    News
+                </a>
+                -->
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/faq"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    FAQ
+                </a>
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/contact"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    Contact Us
+                </a>
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/privacy"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    Privacy Policy
+                </a>
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/terms"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    Terms of Use
+                </a>
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/ccpa"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    CCPA
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>        <!-- FOOTER SECTION END  -->
+</body>
+<style>
+    .about-bg {
+        position: relative;
+        top: 0px;
+        left: 0;
+        right: 0;
+        min-height: 25vh;
+        max-height: 25vh;
+        height: 100%;
+        width: 100%;
+        background-image: url("https://llamabathroom.com/bathroom-assets/assets/bath-hero.png");
+        background-size: cover;
+        background-position: center 50%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 0;
+    }
+    h1, p {
+        text-align: left !important;
+    }
+    .about-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        text-align: left !important;
+    }
+    .about-bg::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+    .about-bg-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 10;
+    }
+    #header-text {
+        font-size: 4rem;
+        align-self: start;
+        z-index: 999 !important;
+    }
+    #about-text {
+        font-size: 1.25rem;
+        align-self: start;
+        line-height: 1.75 !important;
+        margin-bottom: 1rem;
+    }
+    @media (max-width: 768px) {
+        #header-text {
+            font-size: 2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        .about-bg {
+            min-height: 15vh;
+        }
+        #content-box {
+            height: 100%;
+            width: 100%;
+            z-index: 999;
+            padding: 0.5rem 0rem !important;
+        }
+        #about-text {
+            font-size: 1rem;
+            align-self: start;
+            line-height: 1.5 !important;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        footer .h-16 {
+            height: auto !important;
+            max-height: 10rem;
+        }
+        #get-started {
+            max-width: 350px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    #about-content {
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        text-align: left !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 1rem 0rem;
+    }
+
+    #about-text a {
+        color: blue;
+    }
+
+    #content-box {
+        height: 100%;
+        width: 100%;
+        z-index: 999;
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        min-height: 65vh;
+    }
+
+    footer .h-16 {
+        height: 5rem;
+    }
+</style>
+</html>

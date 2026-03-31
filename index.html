@@ -1,114 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Llama Bathroom | EPICATE</title>
-    <meta
-      name="description"
-      content="Upgrade your home with a modern bathroom remodel. Fast consultation, transparent pricing, and premium finishes."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Upgrade Your Home | Llama Bathroom</title>
+    <link rel="stylesheet" href="/bathroom-assets/index.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
+        rel="icon"
+        href="/bathroom-assets/assets/favicon/favicon-32x32.png"
+        sizes="32x32"
     />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="hero">
-      <nav class="nav container">
-        <div class="brand">Llama Bathroom</div>
-        <a class="nav-cta" href="#lead-form">Get a quote</a>
-      </nav>
+    <link
+        rel="icon"
+        href="/bathroom-assets/assets/favicon/favicon-16x16.png"
+        sizes="16x16"
+    />
+    <link
+        rel="apple-touch-icon"
+        href="/bathroom-assets/assets/favicon/apple-touch-icon.png"
+    />
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "qmns45loop");
+</script>
+</head>
+<body>
 
-      <div class="hero-content container">
-        <div class="hero-copy">
-          <span class="eyebrow">Bathroom renovations made simple</span>
-          <h1>Upgrade your home with a beautiful new bathroom</h1>
-          <p>
-            Premium bathroom remodeling, fast consultation, and a smooth start-to-finish process for homeowners who want quality without the chaos.
-          </p>
 
-          <form class="zip-form" id="lead-form">
-            <label for="zipcode" class="sr-only">Enter your zip code</label>
-            <input id="zipcode" name="zipcode" type="text" placeholder="Enter your zip code" />
-            <button type="submit">Check availability</button>
-          </form>
+<div class="min-h-screen hero font-primary">
+    <!-- NAVBAR START -->
+    <div class="top-0 left-0 w-full h-fit navbar relative">
+        <nav
+            id="navbar"
+            class="bg-transparent transition-all duration-500 ease-in-out py-2"
+        >
+            <div class="flex justify-center items-center px-5">
+                <div class="flex items-center justify-center">
+                    <a href="#" class="py-">
+                        <img
+                            src="/bathroom-assets/assets/bath-logo.svg"
+                            alt="logo"
+                            height="84"
+                            width="135"
+                            class="logo"
+                        />
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- NAVBAR END -->
 
-          <div class="trust-row">
-            <span>Fast consultation</span>
-            <span>Transparent pricing</span>
-            <span>Premium finishes</span>
-          </div>
+    <!-- HERO START -->
+    <div
+        id="inner-hero"
+        class="left-0 right-0 bottom-0 z-20 w-full h-full px-2 flex flex-col items-center justify-center lg:justify-center main max-w-8xl mx-auto"
+    >
+        <div id="zipp" class="w-full px-8">
+            <div class=""  style="max-width: 950px; margin: auto;">
+                <h1
+                    id="hero-text"
+                    class="text-6xl leading-second sm:leading-main lg:leading-main text-white text-center"
+                >
+              <span class="font-head">
+               Upgrade your home in Bengaluru with a new bathroom
+              </span>
+                </h1>
+                <h4
+                    id="hero-sub"
+                    class="text-xl lg:text-3xl text-white mt-4 font-medium text-center"
+                >
+                    Enter your zip code to find what offers are available in your area.
+                </h4>
+            </div>
+            <div
+                id="hero-form"
+                class="mx-auto relative rounded-xl flex flex-col p-8 lg:gap-y-8 secondary-font font-medium w-full lg:max-w-2xl max-w-lg"
+            >
+                <div
+                    id="hero-box"
+                    class="flex flex-col lg:flex-row items-center justify-center w-full space-x-2"
+                >
+                    <input
+                        inputmode="numeric"
+                        autocomplete="postal-code"
+                        maxlength="5"
+                        size="5"
+                        id="zip_lead"
+                        name="zip_lead"
+                        type="text"
+                        class="w-full text-md lg:text-lg border-2 border-gray-300 text-black text-center bg-white placeholder:text-center py-4 lg:py-2 rounded-full"
+                        placeholder="Enter Zip Code"
+                    />
+                    <button
+                        id="zip-lead-btn"
+                        onclick="handleZipLead(event)"
+                        class="w-full bg-brand-green text-md lg:text-lg cursor-pointer text-white py-3 lg:py-4 px-6 rounded-full border-2 border-transparent hover:border-brand-green hover:bg-white hover:shadow-md hover:text-brand-green transition-all duration-300 ease-in-out"
+                    >
+                        NEXT
+                    </button>
+                </div>
+                <p
+                    id="zip-error"
+                    class="text-red-500 text-center text-sm px-4 py-2 hidden"
+                ></p>
+            </div>
         </div>
+    </div>
+    <!-- HERO END -->
+</div>
 
-        <div class="hero-card">
-          <div class="stat-card">
-            <strong>4.9/5</strong>
-            <span>Average homeowner satisfaction</span>
-          </div>
-          <div class="feature-card">
-            <h2>What you get</h2>
-            <ul>
-              <li>Design-first bathroom planning</li>
-              <li>Material and finish guidance</li>
-              <li>Clear project timeline</li>
-              <li>Support from quote to completion</li>
-            </ul>
-          </div>
+<!-- FOOTER SECTION START  -->
+<footer class="py-20 my-0 bottom-0 secondary-font bg-black w-full h-fit">
+    <div class="bg-black lg:py-4 py-20 h-full font-light">
+        <div
+            class="flex flex-col lg:flex-row justify-center items-center lg:justify-between h-16 px-5 max-w-7xl mx-auto lg:space-y-0 space-y-6"
+        >
+            <div class="text-white text-center text-sm order-3 lg:order-1">
+                © 2026 The Llama All rights reserved.
+            </div>
+            <div class="flex items-center justify-center order-1 lg:order-2">
+                <a href="/">
+                <img
+                    src="/bathroom-assets/assets/bath-logo.svg"
+                    alt="logo"
+                    height="84"
+                    width="135"
+                    class="logo"
+                    />
+                </a>
+            </div>
+            <div
+                class="flex flex-col lg:flex-row items-center justify-center space-y-2 lg:space-y-0 lg:pb-0 pb-10 text-white text-sm order-2 lg:order-3"
+            >
+                <a
+                    href="/about"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    About
+                </a>
+                <!--
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="https://thellama.com/blog"
+                    target="_blank"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    News
+                </a>
+                -->
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/faq"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    FAQ
+                </a>
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/contact"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    Contact Us
+                </a>
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/privacy"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    Privacy Policy
+                </a>
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/terms"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    Terms of Use
+                </a>
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/ccpa"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    CCPA
+                </a>
+            </div>
         </div>
-      </div>
-    </header>
+    </div>
+</footer><!-- FOOTER SECTION END  -->
 
-    <main>
-      <section class="section container grid-3">
-        <article class="info-card">
-          <h3>Consultation</h3>
-          <p>Tell us about your space, goals, and timeline. We help you shape the right plan before work begins.</p>
-        </article>
-        <article class="info-card">
-          <h3>Design & materials</h3>
-          <p>Choose layouts, fittings, tile styles, and finishes that fit your home and budget.</p>
-        </article>
-        <article class="info-card">
-          <h3>Build with confidence</h3>
-          <p>Move from estimate to execution with a process built to reduce surprises and keep momentum up.</p>
-        </article>
-      </section>
+<style type="text/css">
+    .hero {
+        min-height: 100vh !important;
+        display: flex !important;
+        flex-direction: column !important;
+        background-image: url("/bathroom-assets/assets/bath-hero.png") !important;
+        background-size: cover !important;
+        background-position: center bottom 50% !important;
+    }
+    #zip-lead-btn {
+        background-color: #fb7304 !important;
+    }
+    #zip-lead-btn:hover {
+        background-color: #1041b5 !important;
+    }
+    .navbar {
+        min-height: 20px !important;
+    }
+    #inner-hero {
+        position: relative !important;
+        height: auto !important;
+        top: 0 !important;
+        width: 100% !important;
+    }
+    @media (min-width: 1024px) {
+        .main {
+            padding-top: 1em !important;
+        }
+        #form {
+            margin-top: 2em;
+        }
+    }
+    @media (max-width: 600px) {
+        #inner-hero {
+            padding-top: 0 !important;
+            justify-content: center !important;
+        }
+        #hero-text {
+            font-size: 1.8rem !important;
+        }
+        #hero-sub {
+            font-weight: normal !important;
+        }
+    }
+</style>
 
-      <section class="section alt-section">
-        <div class="container two-col">
-          <div>
-            <span class="eyebrow">Why homeowners choose us</span>
-            <h2>A cleaner, calmer renovation experience</h2>
-            <p>
-              Renovations shouldn’t feel like guesswork. We focus on clarity, communication, and results that make the upgrade feel worth it.
-            </p>
-          </div>
-          <div class="bullet-panel">
-            <div class="bullet-item">Structured onboarding and quote flow</div>
-            <div class="bullet-item">High-end look with practical recommendations</div>
-            <div class="bullet-item">A landing page ready for campaigns and lead capture</div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer container">
-      <p>© 2026 Llama Bathroom / EPICATE</p>
-    </footer>
-
-    <script>
-      document.querySelector('.zip-form').addEventListener('submit', function (event) {
-        event.preventDefault();
-        const zip = document.getElementById('zipcode').value.trim();
-        const message = zip
-          ? `Thanks — we’ll use ${zip} to check availability in your area.`
-          : 'Please enter your zip code to continue.';
-        alert(message);
-      });
-    </script>
-  </body>
+<script src="/bathroom-assets/index.js?v=1.5"></script>
+</body>
 </html>

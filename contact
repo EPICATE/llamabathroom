@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Bathroom Llama</title>
+    <link rel="stylesheet" href="https://llamabathroom.com/bathroom-assets/index.css" />
+    <link
+        rel="icon"
+        href="https://llamabathroom.com/bathroom-assets/assets/favicon/favicon-32x32.png"
+        sizes="32x32"
+    />
+    <link
+        rel="icon"
+        href="https://llamabathroom.com/bathroom-assets/assets/favicon/favicon-16x16.png"
+        sizes="16x16"
+    />
+    <link
+        rel="apple-touch-icon"
+        href="https://llamabathroom.com/bathroom-assets/assets/favicon/apple-touch-icon.png"
+    />
+</head>
+<body>
+<div class="">
+    <!-- NAVBAR START -->
+    <div class="relative top-0 left-0 w-full h-fit navbar ">
+        <nav
+            id="navbar"
+            class="bg-black transition-all duration-500 ease-in-out py-2"
+        >
+            <div class="flex justify-center items-center px-5">
+                <div class="flex items-center justify-center">
+                    <a href="/">
+                        <img
+                            src="https://llamabathroom.com/bathroom-assets/assets/bath-logo.svg"
+                            alt="logo"
+                            height="84"
+                            width="135"
+                            class="logo"
+                        />
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- NAVBAR END -->
+
+ <!-- CONTENT START -->
+ <div class="about-bg">
+        <div class="about-wrapper max-w-7xl mx-auto px-4 z-20">
+            <h1 id="header-text" class="font-head leading-second sm:leading-main lg:leading-main text-white">
+                Contact Us
+            </h1>
+        </div>
+        <div class="about-bg-overlay z-2"></div>
+    </div>
+    <div id="content-box" class="flex flex-col lg:flex-row justify-center items-start text-left lg:justify-between max-w-7xl w-full min-h- mx-auto bg-white">
+        <div id="about-content" class="flex flex-col justify-center items-center lg:items-start lg:justify-start text-left px-5 lg:px-0 py-10 w-full lg:py-0">
+            <h2 id="content-header">We appreciate any questions you have regarding our services.</h2>
+            <div id="contact-box">
+                <p id="contact-sub">Need to get in touch?</p>
+                <div id="contact-options">
+                    <a id="option" href="https://forms.clickup.com/14351310/f/dnyye-6051/A5LNG7FJS5Z633CZ3K" target="_blank">
+                        <div id="icon-box">
+                            <img id="icon" src="https://llamabathroom.com/bathroom-assets/assets/bulb-icon.svg" alt="learn more icon" />
+                        </div>
+                        <p id="option-head">Learn More</p>
+                        <p id="option-sub">
+                           Submit a contact request
+                        </p>
+                    </a>
+                    <a id="option" href="/cdn-cgi/l/email-protection#43202c2d3722203703372b262f2f222e226d202c2e" target="_blank">
+                        <div id="icon-box">
+                            <img id="icon" src="https://llamabathroom.com/bathroom-assets/assets/email-icon.svg" alt="email icon" />
+                        </div>
+                        <p id="option-head">
+                            Send us an email
+                        </p>
+                        <p id="option-sub">
+                            <span class="__cf_email__" data-cfemail="85e6eaebf1e4e6f1c5f1ede0e9e9e4e8e4abe6eae8">[email&#160;protected]</span>
+                        </p>
+                    </a>
+                    <a id="option" href="tel:1-899-485-1643" target="_blank">
+                        <div id="icon-box">
+                            <img id="icon" src="https://llamabathroom.com/bathroom-assets/assets/phone-icon.svg" alt="phone icon" />
+                        </div>
+                        <p id="option-head">Give us a call</p>
+                        <p id="option-sub">
+                            +1 (899)-485-1643
+                        </p>
+                    </a>
+                </div>
+                <div id="addy">
+                    <div id="contact-info-box">
+                        <img id="icon" src="https://llamabathroom.com/bathroom-assets/assets/map-icon.svg" alt="phone icon" />
+                        <p id="contact-info">
+                            Bathroom Llama
+                            <br />
+                            6935 Aliante Pkwy Ste #104-476
+                            <br />
+                            North Las Vegas, NV 89084
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a
+                href="/"
+                id="get-started"
+                class="w-full bg-brand-green text-md uppercase lg:text-lg cursor-pointer text-white py-3 lg:py-4 px-6 mt-6 rounded-full border-2 border-transparent hover:border-brand-green hover:bg-white hover:shadow-md hover:text-brand-green text-center transition-all duration-300 ease-in-out"
+            >
+                Get Started Now
+            </a>
+        </div>
+    </div>
+    <!-- CONTENT END -->
+</div>
+
+        <!-- FOOTER SECTION START  -->
+        <footer class="py-20 my-0 bottom-0 secondary-font bg-black w-full h-fit">
+    <div class="bg-black lg:py-4 py-20 h-full font-light">
+        <div
+            class="flex flex-col lg:flex-row justify-center items-center lg:justify-between h-16 px-5 max-w-7xl mx-auto lg:space-y-0 space-y-6"
+        >
+            <div class="text-white text-center text-sm order-3 lg:order-1">
+                © 2026 The Llama All rights reserved.
+            </div>
+            <div class="flex items-center justify-center order-1 lg:order-2">
+                <a href="/">
+                <img
+                    src="https://llamabathroom.com/bathroom-assets/assets/bath-logo.svg"
+                    alt="logo"
+                    height="84"
+                    width="135"
+                    class="logo"
+                    />
+                </a>
+            </div>
+            <div
+                class="flex flex-col lg:flex-row items-center justify-center space-y-2 lg:space-y-0 lg:pb-0 pb-10 text-white text-sm order-2 lg:order-3"
+            >
+                <a
+                    href="/about"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    About
+                </a>
+                <!--
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="https://thellama.com/blog"
+                    target="_blank"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    News
+                </a>
+                -->
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/faq"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    FAQ
+                </a>
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/contact"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    Contact Us
+                </a>
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/privacy"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    Privacy Policy
+                </a>
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/terms"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    Terms of Use
+                </a>
+                <p class="text-center hidden lg:block mx-4">|</p>
+                <a
+                    href="/ccpa"
+                    class="text-center hover:text-gray-400 transition-all duration-300 ease-in-out"
+                >
+                    CCPA
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>        <!-- FOOTER SECTION END  -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+<style>
+    #addy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    #addy-title {
+        font-size: 1.25rem;
+        margin-bottom: .5rem;
+        color: #1041B5;
+    }
+    #contact-info-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #contact-info {
+        margin-left: 1rem;
+    }
+    #icon {
+        width: 1.75rem;
+    }
+    .about-bg {
+        position: relative;
+        top: 0px;
+        left: 0;
+        right: 0;
+        min-height: 25vh;
+        max-height: 25vh;
+        height: 100%;
+        width: 100%;
+        background-image: url("https://llamabathroom.com/bathroom-assets/assets/bath-hero.png");
+        background-size: cover;
+        background-position: center 50%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 0;
+    }
+    h1, p {
+        text-align: left !important;
+    }
+    .about-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        text-align: left !important;
+    }
+    .about-bg::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+    .about-bg-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 10;
+    }
+    #header-text {
+        font-size: 4rem;
+        align-self: start;
+        z-index: 999 !important;
+    }
+    #about-text {
+        font-size: 1.25rem;
+        align-self: start;
+        line-height: 1.75 !important;
+        margin-bottom: 1rem;
+    }
+    @media (max-width: 768px) {
+        #content-header {
+            font-size: 1.25rem !important;
+            text-align: center !important;
+            max-width: 375px;
+        }
+        #option {
+            margin-left: 0.25rem !important;
+            margin-right: 0.25rem !important;
+        }
+        #option p {
+            font-size: 0.9rem !important;
+        }
+        #contact-box {
+            padding: 0.5rem !important;
+        }
+        #contact-options {
+            flex-direction: column !important;
+            justify-content: center;
+            align-items: center;
+        }
+        #header-text {
+            font-size: 2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        .about-bg {
+            min-height: 15vh;
+        }
+        #content-box {
+            height: 100%;
+            width: 100%;
+            z-index: 999;
+            padding: 0.5rem 0rem !important;
+        }
+        #about-text {
+            font-size: 1rem;
+            align-self: start;
+            line-height: 1.5 !important;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        footer .h-16 {
+            height: auto !important;
+            max-height: 10rem;
+        }
+        #get-started {
+            max-width: 350px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    #about-content {
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        text-align: left !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0rem;
+    }
+
+    #about-text a {
+        color: blue;
+    }
+
+    #content-box {
+        height: 100%;
+        width: 100%;
+        z-index: 999;
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        min-height: 65vh;
+    }
+
+    footer .h-16 {
+        height: 5rem;
+    }
+
+    #content-header {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        font-family: "articulat-cf", sans-serif !important;
+    }
+
+    #contact-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        transition: all 0.2s ease-in-out;
+    }
+    #option {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: 1px solid #e2e8f0;
+        margin-bottom: 1rem;
+        transition: all 0.2s ease-in-out;
+        max-width: 350px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    #option:hover {
+        border: 1px solid #cbd5e0;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+        background-color: rgba(16, 65, 181, 0.75);
+        color: white;
+    }
+
+    #icon-box {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s ease-in-out;
+        margin-bottom: .5rem;
+    }
+
+    #contact-sub {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+        font-family: "articulat-cf", sans-serif !important;
+        color: #1041B5;
+    }
+
+    #contact-options {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    #option p {
+        font-family: "articulat-cf", sans-serif !important;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 0rem;
+    }
+
+    #option:hover #icon-box {
+        background: white;
+    }
+
+    #option-head {
+        font-size: 1rem !important;
+        color: #1041B5;
+        font-weight: 800 !important;
+    }
+    #option-sub {
+        font-size: .75rem;
+        color: #6E6E6E;
+    }
+
+    #option:hover #contact-sub,
+    #option:hover #option-head,
+    #option:hover #option-sub {
+        color: white;
+    }
+</style>
+</html>
