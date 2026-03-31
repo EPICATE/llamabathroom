@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Llama Bathroom | EPICATE</title>
+    <meta
+      name="description"
+      content="Upgrade your home with a modern bathroom remodel. Fast consultation, transparent pricing, and premium finishes."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <div class="brand">Llama Bathroom</div>
+        <a class="nav-cta" href="#lead-form">Get a quote</a>
+      </nav>
+
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <span class="eyebrow">Bathroom renovations made simple</span>
+          <h1>Upgrade your home with a beautiful new bathroom</h1>
+          <p>
+            Premium bathroom remodeling, fast consultation, and a smooth start-to-finish process for homeowners who want quality without the chaos.
+          </p>
+
+          <form class="zip-form" id="lead-form">
+            <label for="zipcode" class="sr-only">Enter your zip code</label>
+            <input id="zipcode" name="zipcode" type="text" placeholder="Enter your zip code" />
+            <button type="submit">Check availability</button>
+          </form>
+
+          <div class="trust-row">
+            <span>Fast consultation</span>
+            <span>Transparent pricing</span>
+            <span>Premium finishes</span>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="stat-card">
+            <strong>4.9/5</strong>
+            <span>Average homeowner satisfaction</span>
+          </div>
+          <div class="feature-card">
+            <h2>What you get</h2>
+            <ul>
+              <li>Design-first bathroom planning</li>
+              <li>Material and finish guidance</li>
+              <li>Clear project timeline</li>
+              <li>Support from quote to completion</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container grid-3">
+        <article class="info-card">
+          <h3>Consultation</h3>
+          <p>Tell us about your space, goals, and timeline. We help you shape the right plan before work begins.</p>
+        </article>
+        <article class="info-card">
+          <h3>Design & materials</h3>
+          <p>Choose layouts, fittings, tile styles, and finishes that fit your home and budget.</p>
+        </article>
+        <article class="info-card">
+          <h3>Build with confidence</h3>
+          <p>Move from estimate to execution with a process built to reduce surprises and keep momentum up.</p>
+        </article>
+      </section>
+
+      <section class="section alt-section">
+        <div class="container two-col">
+          <div>
+            <span class="eyebrow">Why homeowners choose us</span>
+            <h2>A cleaner, calmer renovation experience</h2>
+            <p>
+              Renovations shouldn’t feel like guesswork. We focus on clarity, communication, and results that make the upgrade feel worth it.
+            </p>
+          </div>
+          <div class="bullet-panel">
+            <div class="bullet-item">Structured onboarding and quote flow</div>
+            <div class="bullet-item">High-end look with practical recommendations</div>
+            <div class="bullet-item">A landing page ready for campaigns and lead capture</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <p>© 2026 Llama Bathroom / EPICATE</p>
+    </footer>
+
+    <script>
+      document.querySelector('.zip-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+        const zip = document.getElementById('zipcode').value.trim();
+        const message = zip
+          ? `Thanks — we’ll use ${zip} to check availability in your area.`
+          : 'Please enter your zip code to continue.';
+        alert(message);
+      });
+    </script>
+  </body>
+</html>
