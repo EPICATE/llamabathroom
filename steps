@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Upgrade Your Home | Llama Bathroom</title>
+    <link rel="stylesheet" href="/bathroom-assets/index.css?v=1.2" />
+    <link rel="icon" href="/bathroom-assets/assets/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="/bathroom-assets/assets/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="/bathroom-assets/assets/favicon/apple-touch-icon.png" />
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "qmns45loop");
+</script>
+</head>
+
+<body>
+    <div class="hero2 relative flex flex-col w-full">
+        <!-- NAVBAR START -->
+        <div class="top-0 left-0 w-full h-fit navbar">
+            <nav id="navbar" class="bg-transparent transition-all duration-500 ease-in-out py-2">
+                <div class="flex justify-center relative max-w-xl mx-auto items-center w-full h-16 px-5">
+                    <div class="flex order-2 flex-col items-center w-full max-w-lg gap-y-4 justify-center pr-2 py-4">
+                        <a href="/">
+                            <img src="/bathroom-assets/assets/bath-logo.svg" alt="logo" height="84"
+                                width="135" class="logo" />
+                        </a>
+                    </div>
+                </div>
+                <div id="lock"
+                    class="bg-brand-green absolute top-5 rounded-full left-8 sm:left-10 md:left-16 lg:left-40 p-2 w-fit">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="white" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                    </svg>
+                </div>
+            </nav>
+        </div>
+        <!-- NAVBAR END -->
+
+        <!-- PROGRESS BAR START  -->
+        <div id="progress_bar" class="w-full  z-20 flex flex-col items-center justify-center ">
+            <div id="progress_bar_inner" class="overflow-hidden w-60 sm:w-full rounded-full bg-gray-200 max-w-sm h-2">
+                <hr class="h-2 rounded-full bg-brand-green border border-brand-green animate-progress" id="progress"
+                    style="width: 25%" />
+            </div>
+            
+        </div>
+        <!-- PROGRESS BAR END  -->
+
+        <!-- CONTENT START -->
+        <div class="w-full relative flex flex-col form items-center justify-center max-w-7xl">
+            <form id="form" class="text-white w-full flex flex-col items-center py-20">
+                <!-- HIDDEN INPUT FIELDS/TRACKING -->
+                <input name="universal_leadid" id="leadid_token" type="hidden" value="" autocomplete="off" />
+                <input type="hidden" id="_token" name="_token" value="iwAI5IYk9Bt1wGdTHWxqSeE2y4H99wYX89zUXWL3" />
+                <input type="hidden" name="lp_campaign_id" value="" />
+                <input type="hidden" name="lp_campaign_key" value="" />
+                <input type="hidden" name="reqid" value="" autocomplete="off" />
+                <input type="hidden" name="gclid" value="" autocomplete="off" />
+                <input type="hidden" name="s1" value="" autocomplete="off" />
+                <input type="hidden" name="s2" value="" autocomplete="off" />
+                <input type="hidden" name="s3" value="" autocomplete="off" />
+                <input type="hidden" name="s4" value="" autocomplete="off" />
+                <input type="hidden" name="s5" value="" autocomplete="off" />
+                <input type="hidden" name="ip_address" value="64.227.154.218" autocomplete="off" />
+                <input type="hidden" name="full_source_url" value="" autocomplete="off" />
+                <input type="hidden" name="user_agent"
+                    value="python-requests/2.31.0"
+                    autocomplete="off" />
+                <input type="hidden" name="residence_ownership" id="residence_ownership" value="1" />
+                <!-- HIDDEN INPUT FIELDS/TRACKING -->
+
+                <div id="step1" class="active">
+                    <div class="w-full flex flex-col items-center justify-center">
+                        <div class="pb-6">
+                            <h2 class="step-header text-white text-center font-head" style="line-height: 1.1">
+                                Which of these best describe your needs?
+                            </h2>
+                        </div>
+
+                        <input type="hidden" id="service_type" name="service_type">
+
+                        <div class="container">
+                            <div id="option1" onclick="setSelection(1, 'bathtub_to_shower')"
+                                class="option">
+                                Bathtub to shower conversion
+                            </div>
+
+                            <div id="option2" onclick="setSelection(2, 'updates')" class="option">
+                                Bathtub/Shower Updates
+                            </div>
+
+                            <div id="option3" onclick="setSelection(3, 'bathtube_liner_shower_enclosure')"
+                                class="option">
+                                Bathtub liner/Shower Enclosure
+                            </div>
+
+                            <div id="option4" onclick="setSelection(4, 'walkin_shower')" class="option">
+                                Walk-In Shower
+                            </div>
+
+                            <div id="option5" onclick="setSelection(5, 'complete_remodel')"
+                                class="option">
+                                Complete Bathroom Remodel
+                            </div>
+                        </div>
+
+                        <p id="bathroom-type-error" class="text-red-500 text-sm mt-2 hidden">Please select an option
+                            before
+                            proceeding.</p>
+
+                    </div>
+                </div>
+
+                <!-- YOUR ADDRESS (START) (step3 -> step2) -->
+                <div id="step2">
+                    <div class="w-full flex flex-col items-center justify-center">
+                        <div class="icon-box">
+                            <img src="/bathroom-assets/assets/step-icons/house-icon.svg" />
+                        </div>
+                        <div class="pb-4">
+                            <h2 class="step-header text-white text-center font-head">
+                                Your Home Address
+                            </h2>
+                        </div>
+                        <div class="w-full flex flex-col items-center justify-center">
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <input type="search"
+                                    class="w-full p-4 lg:text-center placeholder:lg:text-center rounded-full bg-white border-2 border-brand-green text-black text-lg font-medium"
+                                    id="autoaddress" name="autoaddress" inputmode="text"
+                                    autocomplete="street-address" placeholder="Type Here e.g. 123 West Main Road" />
+                                <div class="flex justify-center">
+                                    <p class="text-red-500 hidden text-sm font-medium mt-2" id="address-error"></p>
+                                </div>
+                                <input type="hidden" name="full_address" id="full_address" />
+                                <input type="hidden" name="street_number" id="street_number" />
+                                <input type="hidden" name="route" id="route" />
+                                <input type="hidden" name="locality" id="locality" />
+                                <input type="hidden" name="state" id="state" />
+                                <input type="hidden" name="postal_code" id="postal_code" />
+                                <input type="hidden" name="country" id="country" />
+                                <div class="mt-6">
+                                    <div class="radio-grid">
+            <div>
+            <label class="radio-label">
+                <input
+                    class="radio-input"
+                    type="radio"
+                    name="homeowner"
+                    value="1"
+                    
+                    checked 
+                    onchange="handleHomeownerSelection(event)">
+                
+                <span class="radio-indicator">
+                    <!-- Checkmark Icon: Displayed when radio button is selected -->
+                    <svg class="radio-icon"
+                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                         stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M5 13l4 4L19 7"></path>
+                    </svg>
+                </span>
+
+                <span class="ml-2">I am the owner</span>
+            </label>
+        </div>
+            <div>
+            <label class="radio-label">
+                <input
+                    class="radio-input"
+                    type="radio"
+                    name="homeowner"
+                    value="0"
+                    
+                     
+                    onchange="handleHomeownerSelection(event)">
+                
+                <span class="radio-indicator">
+                    <!-- Checkmark Icon: Displayed when radio button is selected -->
+                    <svg class="radio-icon"
+                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                         stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M5 13l4 4L19 7"></path>
+                    </svg>
+                </span>
+
+                <span class="ml-2">I rent</span>
+            </label>
+        </div>
+    </div>
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FINAL STEP (email & phone #) (START) -->
+                <div id="step3">
+                    <div class="w-full relative flex flex-col font-primary items-center justify-center">
+                        <div class="icon-box">
+                            <img src="/bathroom-assets/assets/step-icons/phone-icon.svg" />
+                        </div>
+                        <div class="pb-4">
+                            <h2 class="text-3xl sm:text-4xl lg:text-5xl text-white text-center font-head font-medium">
+                                Final Step!
+                            </h2>
+                        </div>
+                        <div class="w-full flex flex-col items-center justify-center">
+                            <div>
+                                <p class="text-md md:text-lg text-white text-center font-primary font-medium">
+                                    Complete The Final Step To Get A Quote!
+                                </p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <div id="name-container" class="w-full flex flex-col justify-center gap-4">
+                                    <div class="w-full">
+                                        <input type="text" id="first_name" name="first_name" inputmode="text"
+                                            class="input-field" placeholder="First Name" />
+                                        <div class="flex justify-center">
+                                            <p id="first-name-error" class="text-red-500 text-sm hidden mt-2"></p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Last Name Input -->
+                                    <div class="w-full">
+                                        <input type="text" id="last_name" name="last_name" inputmode="text"
+                                            class="input-field" placeholder="Last Name" />
+                                        <div class="flex justify-center">
+                                            <p id="last-name-error" class="text-red-500 text-sm hidden mt-2"></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="w-full">
+                                        <input type="email" inputmode="email" value="" name="email"
+                                               id="email" class="input-field" placeholder="Email Address" />
+
+                                        <div class="flex justify-center">
+                                            <p class="text-red-500 text-sm hidden font-medium mt-2" id="email-error"></p>
+                                        </div>
+                                    </div>
+                                    <div class="w-full">
+                                        <input id="phone_mask" inputmode="numeric" name="phone_number_mask" type="tel"
+                                               class="input-field" placeholder="Phone Number" />
+                                        <input type="hidden" name="phone_number" id="phone_number" value="" />
+                                        <div class="flex justify-center">
+                                            <p class="text-red-500 text-sm hidden font-medium mt-2" id="phone-error"></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" id="next" class="next_btn">Next</button>
+
+        <button type="button" id="prev">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M11.25 9l-3 3m0 0l3 3m-3-3h7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <p>Back</p>
+        </button>
+
+        <!-- FINAL STEP (email & phone #) (END) -->
+        <div class="flex flex-col justify-center w-full relative space-y-3">
+            <p id="click_submit_text_container"
+               class="text-xs text-center mb-4 max-w-sm mx-auto click_submit_text mt-4 hidden">
+                By clicking the button below, you acknowledge, consent, and agree to our terms at the bottom of
+                this page.
+            </p>
+            <div class="submit_btn  flex flex-col items-center justify-center  hidden"
+                 style="margin-top: 0; text-align: center;">
+                <button type="submit"
+                        class="bg-brand-orange cursor-pointer text-white hover:bg-white hover:text-brand-green border-2 border-transparent hover:border-brand-green hover:shadow-2xl transition-all duration-300 ease-in-out px-4 py-4 rounded-full w-fit text-md font-medium"
+                        id="submit">
+                    Get My Quote
+                </button>
+                <div class="w-full flex flex-col items-center justify-center py-4">
+                    <p class="text-white text-center text-xs font-medium mb-4">
+                        By clicking the "Get My Quote" button, you authorize Erie Construction Mid-West,
+                        LLC DBA Erie Home and
+                        <a href="https://thellama.com/installers" target="_blank" id="link">
+                            up to four home improvement companies
+                        </a>
+                        to call you and send you pre-recorded messages and text messages at the number
+                        you entered above, using an autodialer, with offers about their products or
+                        services, even if your phone number is on any national or state "Do Not Call"
+                        list. Message and data rates may apply. Your consent here is not based on a
+                        condition of purchase.
+                        <a href="/privacy" target="_blank" id="link">
+                            Privacy Policy
+                        </a>
+                        |
+                        <a href="/terms" target="_blank" id="link">
+                            Terms of Use
+                        </a>
+                    </p>
+
+                </div>
+            </div>
+
+            <style type="text/css">
+                #link {
+                    color: #f6ad55;
+                }
+            </style>
+        </div>
+        </form>
+    </div>
+
+    <!-- FOOTER SECTION START  -->
+    <footer class="py-10 my-0 bottom-0 font-primary bg-black footer">
+        <div class="bg-black lg:py-4 py-20 h-full font-light">
+            <div
+                class="flex flex-col lg:flex-row justify-center items-center lg:justify-between h-16 px-5 max-w-7xl mx-auto lg:space-y-0 space-y-10">
+                <div class="text-white text-center text-sm order-3 lg:order-1">
+                    © 2026 The Llama All rights reserved.
+                </div>
+                <div class="flex items-center justify-center order-1 lg:order-2">
+                    <a href="/">
+                        <img src="/bathroom-assets/assets/bath-logo.svg" alt="logo" height="84"
+                            width="135" class="logo" />
+                    </a>
+                </div>
+                <div
+                    class="flex flex-col lg:flex-row items-center justify-center space-y-2 lg:space-y-0 lg:pb-0 pb-10 text-white text-sm order-2 lg:order-3">
+                    <!--
+                          <a
+                              href="https://asksolar.com/contact-us"
+                              target="_blank"
+                              class="text-center hover:text-brand-green transition-all duration-300 ease-in-out"
+                          >
+                              Have a question?
+                          </a>
+                          <p class="text-center hidden lg:block mx-4">|</p>
+                          -->
+                    <a href="/privacy" target="_blank"
+                        class="text-center hover:text-brand-green transition-all duration-300 ease-in-out">
+                        Privacy Policy
+                    </a>
+                    <p class="text-center hidden lg:block mx-4">|</p>
+                    <a href="/terms" target="_blank"
+                        class="text-center hover:text-brand-green transition-all duration-300 ease-in-out">
+                        Terms of Use
+                    </a>
+                    <!--
+                          <p class="text-center hidden lg:block mx-4">|</p>
+                          <a
+                              href="https://asksolar.com/ccpa"
+                              target="_blank"
+                              class="text-center hover:text-brand-green transition-all duration-300 ease-in-out"
+                          >
+                              CCPA
+                          </a>
+                          -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION END  -->
+    </div>
+    <style>
+        .pb-6 {
+            padding-bottom: 2rem !important;
+        }
+
+        .hero2 {
+            background: url("/bathroom-assets/assets/bath-hero-dark.png") !important;
+            background-position: center bottom !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+            width: 100% !important;
+        }
+
+        /* Apply 100vh only for screens larger than 768px (desktop screens) */
+        @media (min-width: 768px) {
+            .hero2 {
+                min-height: 100vh !important;
+            }
+        }
+
+        /* For smaller screens, set height to auto */
+        @media (max-width: 767px) {
+            .hero2 {
+                min-height: auto !important;
+            }
+        }
+
+
+        .border-brand-green {
+            border-color: #254798 !important;
+        }
+
+        .form {
+            justify-content: center;
+            margin-top: 0 !important;
+            height: 100% !important;
+        }
+
+        .navbar {
+            height: 30px;
+        }
+
+        /* .icon-box {
+            margin-top: 3rem;
+        } */
+
+        @media screen and (max-width: 600px) {
+            .form {
+                border: none !important;
+                /* padding-top: 10rem !important; */
+            }
+
+            #step1 {
+                padding-top: 0 !important;
+            }
+
+            .icon-box {
+                margin-top: 0;
+                padding-top: 0;
+            }
+        }
+
+        /* @media (min-width: 768px) {
+            #step1 {
+                margin-top: 120px !important;
+            }
+        } */
+    </style>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const next = document.getElementById("next");
+            const step1 = document.getElementById("step1");
+
+            // Hide Next button if Step 1 is active
+            if (step1.classList.contains("active")) {
+                next.style.display = "none";
+            }
+        });
+
+        function setSelection(id, value) {
+            // Set selected value in hidden input
+            document.getElementById('service_type').value = value;
+
+            document.getElementById("bathroom-type-error").classList.add("hidden");
+            // Remove the selected class from all options
+            document.querySelectorAll('.option').forEach(option => {
+                option.classList.remove('selected');
+            });
+
+            // Highlight the selected option
+            let selectedOption = document.getElementById('option' + id);
+            if (selectedOption) {
+                selectedOption.classList.add('selected');
+            }
+
+            // Move to next step
+            // document.getElementById('step1').classList.add('hidden');
+            document.getElementById('next').click();
+        }
+
+        function handleHomeownerSelection(event) {
+            document.getElementById('residence_ownership').value = event.target.value;
+        }
+    </script>
+
+    <script>
+        let TIME_SPENT = 0;
+        let setIntervalInstance;
+
+        // Start the timer
+        function startTimer() {
+            setIntervalInstance = setInterval(() => {
+                TIME_SPENT += 1;
+            }, 1000);
+        }
+
+        // Start the timer if on steps page
+        window.onload = function() {
+            startTimer();
+        };
+    </script>
+
+    <script src="/bathroom-assets/index.js?v=1.92"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCs3URUUFXW7j-KqJzO2GNAwNwwGusCUrw&libraries=places">
+    </script>
+    <script>
+        var input = document.getElementById("autoaddress");
+        var autocomplete = new google.maps.places.Autocomplete(input, {
+            types: ["address"],
+            componentRestrictions: { country: "us" },
+        });
+
+        autocomplete.addListener("place_changed", function() {
+            var place = autocomplete.getPlace();
+            console.log(place);
+
+            for (var component of place.address_components) {
+
+                var addressType = component.types[0];
+                var shortName = component.short_name;
+
+                console.log(addressType, component);
+
+                switch (addressType) {
+                    case 'street_number':
+                        document.getElementById("street_number").value = shortName;
+                        break;
+                    case 'route':
+                        document.getElementById("route").value = shortName;
+                        break;
+                    case 'locality':
+                        document.getElementById("locality").value = shortName;
+                        break;
+                    case 'administrative_area_level_1':
+                        document.getElementById("state").value = shortName;
+                        break;
+                    case 'country':
+                        document.getElementById("country").value = shortName;
+                        break;
+                }
+            }
+        });
+    </script>
+    <script id="LeadiDscript" type="text/javascript">
+        (function() {
+            var s = document.createElement("script");
+            s.id = "LeadiDscript_campaign";
+            s.type = "text/javascript";
+            s.async = true;
+            s.src =
+                "//create.lidstatic.com/campaign/0501b7ae-aa9b-6b08-f778-96847f2bd1ac.js?snippet_version=2";
+            var LeadiDscript = document.getElementById("LeadiDscript");
+            LeadiDscript.parentNode.insertBefore(s, LeadiDscript);
+        })();
+    </script>
+    <noscript>
+        <img
+            src="//create.leadid.com/noscript.gif?lac=709b05cc-e7fb-0438-3323-176aeb6b358e&lck=0501b7ae-aa9b-6b08-f778-96847f2bd1ac&snippet_version=2" />
+    </noscript>
+    <script type="text/javascript">
+        (function() {
+            var field = "xxTrustedFormCertUrl";
+            var provideReferrer = false;
+            var invertFieldSensitivity = false;
+            var tf = document.createElement("script");
+            tf.type = "text/javascript";
+            tf.async = true;
+            tf.src =
+                "http" +
+                ("https:" == document.location.protocol ? "s" : "") +
+                "://api.trustedform.com/trustedform.js?provide_referrer=" +
+                escape(provideReferrer) +
+                "&field=" +
+                escape(field) +
+                "&l=" +
+                new Date().getTime() +
+                Math.random() +
+                "&invert_field_sensitivity=" +
+                invertFieldSensitivity;
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(tf, s);
+        })();
+    </script>
+    <noscript>
+        <img src="http://api.trustedform.com/ns.gif" />
+    </noscript>
+    
+    <script type="text/javascript">
+    console.log('test');
+    (function() {
+        var c = {
+            'name': 'cp',
+            'args': {
+                'sess_timeout': '',
+                'gclid_param': 'gclid',
+                'gclid_chk_ref': 0,
+                'bingkw_param': 'ckm_kw',
+                'sc_param': 'ckmsc',
+                'bingkw_chk_ref': 0,
+                'attr_param': 'ckmscn',
+                'attr_chk_ref': 0,
+                'sess_param': '',
+                'sess_chk_ref': 0,
+                'crtv_id': null,
+                'crtv_param': 'ckmc',
+                'crtv_chk_ref': 0,
+                'tpcrid_param': 'ckmcrn',
+                'cookie_dom': 'cyc.cakeengine.net',
+                'site_dom': '.llamabathroom.com',
+                'ref_type': 1,
+                'ckm_sess_param': null,
+                's1_param': 's1',
+                's2_param': 's2',
+                's3_param': 's3',
+                's4_param': 's4',
+                's5_param': 's5',
+                'sub_chk_ref': 0
+            }
+        };
+        var params = new URLSearchParams(window.location.search);
+        var thirdPartyID = params.get('ckmscn');
+        var creativeID = params.get('ckmc');
+        var activeTracking = params.get('ckmat');
+
+        if (thirdPartyID || creativeID || activeTracking) {
+            if (typeof CKMLib == 'object') {
+                CKMLib.run(c);
+            } else {
+                (_ckm = window._ckm || []).push(c);
+                if (typeof CKMLib != 'string') {
+                    CKMLib = 'loading';
+                    var pix = document.createElement('script');
+                    pix.type = 'text/javascript';
+                    pix.async = true;
+                    pix.src = '//cakecdn.com/jssdk/lib.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(pix, s);
+                }
+            }
+        }
+    })();
+</script>
+
+<script type="text/javascript">
+    function getCookie(name) {
+        name = name.replace(/([.*+?^${}()|[\]\\])/g, '\\$1');
+        var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+        return match ? decodeURIComponent(match[2]) : null;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+            let cakeClickId = getCookie('ckmsid');
+            if (!cakeClickId) {
+                return;
+            }
+            let s2Field = document.querySelector('[name="s2"]');
+            if (s2Field && s2Field.value === '') {
+                s2Field.value = cakeClickId;
+            }
+        }, 5000);
+    });
+</script>
+    <style>
+        .next_btn {
+            margin-top: 40px;
+        }
+    </style>
+</body>
+
+</html>
